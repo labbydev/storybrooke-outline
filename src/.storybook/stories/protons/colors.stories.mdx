@@ -1,0 +1,63 @@
+import { html } from 'lit';
+import { Meta, Canvas, Story, Preview } from '@storybook/addon-docs';
+import tailwindThemeConfig from '../../../resolved-tailwind-config';
+import { unsafeHTML } from 'lit/directives/unsafe-html.js';
+import '../../../components/base/outline-swatch-set/outline-swatch-set'
+
+<Meta
+  title="Design Tokens/Colors/Solid"
+  parameters={{
+    viewMode: 'docs',
+    previewTabs: {
+      canvas: {
+        hidden: true,
+      },
+    },
+  }}
+/>
+
+# Primary colors
+
+<outline-swatch-set set="brand"></outline-swatch-set>
+
+# Neutral colors
+
+<outline-swatch-set set="neutral"></outline-swatch-set>
+
+# UI colors
+
+<outline-swatch-set set="ui"></outline-swatch-set>
+
+# Tailwind Default Color Palettes
+
+## Gray
+
+<outline-swatch-set set="gray"></outline-swatch-set>
+
+## Blue
+
+<outline-swatch-set set="blue"></outline-swatch-set>
+
+## Red
+
+<outline-swatch-set set="red"></outline-swatch-set>
+
+## Yellow
+
+<outline-swatch-set set="yellow"></outline-swatch-set>
+
+## Green
+
+<outline-swatch-set set="green"></outline-swatch-set>
+
+## Indigo
+
+<outline-swatch-set set="indigo"></outline-swatch-set>
+
+## Purple
+
+<outline-swatch-set set="purple"></outline-swatch-set>
+
+## Pink
+
+<outline-swatch-set set="pink"></outline-swatch-set>
